@@ -16,6 +16,7 @@
 		CE65A7032A0D646400944EFB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A7012A0D646400944EFB /* MainViewController.swift */; };
 		CE65A7042A0D646400944EFB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE65A7022A0D646400944EFB /* MainViewController.xib */; };
 		CE65A70E2A0D70E300944EFB /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A70D2A0D70E300944EFB /* MainViewController+TableView.swift */; };
+		CE65A7102A0D731100944EFB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A70F2A0D731100944EFB /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE65A7012A0D646400944EFB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CE65A7022A0D646400944EFB /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		CE65A70D2A0D70E300944EFB /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
+		CE65A70F2A0D731100944EFB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		CE65A7062A0D6A2100944EFB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CE65A70F2A0D731100944EFB /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				CE136B112A0D62BF003DA53A /* AppDelegate.swift in Sources */,
 				CE65A70E2A0D70E300944EFB /* MainViewController+TableView.swift in Sources */,
 				CE65A7032A0D646400944EFB /* MainViewController.swift in Sources */,
+				CE65A7102A0D731100944EFB /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
