@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,21 +13,24 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TrueMovieIcon" translatesAutoresizingMaskIntoConstraints="NO" id="dkj-JC-EYi">
-                                <rect key="frame" x="-171.66666666666666" y="306" width="736.33333333333337" height="240"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TrueMovieIcon" translatesAutoresizingMaskIntoConstraints="NO" id="cf1-TL-p78">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="iJh-HS-5tr"/>
+                                    <constraint firstAttribute="height" constant="240" id="Pg3-BT-g2f"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="i5A-aO-77q"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="ozB-hZ-jRY"/>
+                                    <constraint firstAttribute="width" constant="240" id="x7g-db-oyT"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dkj-JC-EYi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kuB-DV-xxU"/>
-                            <constraint firstItem="dkj-JC-EYi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="woo-OZ-9ja"/>
+                            <constraint firstItem="cf1-TL-p78" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cWk-I3-dEV"/>
+                            <constraint firstItem="cf1-TL-p78" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zbj-5r-U5r"/>
                         </constraints>
                     </view>
                 </viewController>
