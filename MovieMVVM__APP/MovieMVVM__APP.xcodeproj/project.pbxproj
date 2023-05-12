@@ -17,6 +17,9 @@
 		CE65A7042A0D646400944EFB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE65A7022A0D646400944EFB /* MainViewController.xib */; };
 		CE65A70E2A0D70E300944EFB /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A70D2A0D70E300944EFB /* MainViewController+TableView.swift */; };
 		CE65A7102A0D731100944EFB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A70F2A0D731100944EFB /* MainViewModel.swift */; };
+		CE65A7122A0E72AD00944EFB /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A7112A0E72AD00944EFB /* NetworkConstant.swift */; };
+		CE65A7142A0E73EE00944EFB /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A7132A0E73EE00944EFB /* ApiCaller.swift */; };
+		CE65A7162A0E743600944EFB /* TrendingMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A7152A0E743600944EFB /* TrendingMoviesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		CE65A7022A0D646400944EFB /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		CE65A70D2A0D70E300944EFB /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
 		CE65A70F2A0D731100944EFB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CE65A7112A0E72AD00944EFB /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		CE65A7132A0E73EE00944EFB /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		CE65A7152A0E743600944EFB /* TrendingMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,7 @@
 		CE65A7082A0D6A2E00944EFB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE65A7152A0E743600944EFB /* TrendingMoviesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +205,8 @@
 		CE65A70C2A0D6A6D00944EFB /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				CE65A7112A0E72AD00944EFB /* NetworkConstant.swift */,
+				CE65A7132A0E73EE00944EFB /* ApiCaller.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -334,9 +343,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE136B112A0D62BF003DA53A /* AppDelegate.swift in Sources */,
+				CE65A7142A0E73EE00944EFB /* ApiCaller.swift in Sources */,
 				CE65A70E2A0D70E300944EFB /* MainViewController+TableView.swift in Sources */,
 				CE65A7032A0D646400944EFB /* MainViewController.swift in Sources */,
+				CE65A7122A0E72AD00944EFB /* NetworkConstant.swift in Sources */,
 				CE65A7102A0D731100944EFB /* MainViewModel.swift in Sources */,
+				CE65A7162A0E743600944EFB /* TrendingMoviesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
