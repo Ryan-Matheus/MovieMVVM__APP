@@ -60,4 +60,13 @@ class MainViewController: UIViewController {
             self.reloadTableView()
         }
     }
+    
+    func openDetail(movieId: Int) {
+        guard let movie = viewModel.retriveMovie(with: movieId) else {
+            return
+        }
+        let detailsViewModel = DetailsMovieViewModel(movie: movie)
+        let detailsController = DetailsMovieViewController(viewModel: detailsViewModel)
+        self.navigationController?.pushViewController(detailsController, animated: true)
+    }
 }
